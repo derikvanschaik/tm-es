@@ -8,16 +8,25 @@ body {
 }
 
 .hero-section{
-  max-width: 1020px;
+  max-width: 1250px;
   margin: 0 auto;
-  text-align: center;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  padding-bottom: 0;
+}
+.hero-img{
+  object-fit: cover;
+}
+.hero-text-container, .hero-img{
+  width: 50%;
+  height: 500px;
+}
+.hero-text-container{
+  padding-left: 50px;
+  padding-right: 35px;
 }
 .hero-heading{
-  font-size: 55px;
+  font-size: 38px;
   font-weight: 300;
-  margin: 50px;
   margin-bottom: 100px;
 }
 
