@@ -78,6 +78,9 @@ button{
 .hero-heading{
   margin-bottom: 100px;
 }
+/* .icon-container{
+  transform: scale(2);
+} */
 
 .call-to-action{
   display: block-inline;
