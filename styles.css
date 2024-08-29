@@ -4,6 +4,8 @@ body {
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 button{
@@ -100,30 +102,48 @@ button{
 
 .whats-different{
   background-color: white;
+  padding-bottom: 0;
 }
-.whats-different-container{
+/* .whats-different-container{
   max-width: 1250px;
   margin: 0 auto;
-}
+} */
 .whats-different-heading{
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.differences{
-  width: 60%;
-  margin: 0 auto;
+.difference{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-color: rgb(246 237 229);
 }
-.difference-card{
-  padding: 25px 30px;
-  /* border: 1px solid black; */
-  width: 250px;
+.difference:nth-of-type(odd){
+  flex-direction: row-reverse;
+}
+.difference:first-of-type {
+  background: linear-gradient(to bottom, white, rgb(246, 237, 229));
+}
+
+.difference:last-of-type {
+  background: linear-gradient(to top, white, rgb(246, 237, 229));
+}
+
+.diff-img, .difference-text {
+  width: 50%;
+}
+.diff-img{
+  height: 500px;
+  object-fit: cover;
+}
+.difference-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
 .difference-title{
-  font-size: 24px;
-  font-weight: 400;
+  margin-bottom: 35px;
 }
 
 .form-input{
