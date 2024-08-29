@@ -11,7 +11,7 @@ body {
 button{
   all: unset;
 }
-
+/* global utils */
 .section{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -27,6 +27,35 @@ button{
 .centered{
   max-width: 1024px;
   margin: 0 auto;
+}
+
+/* sections */
+.navbar{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.logo{
+  height: 50px;
+  width: auto;
+}
+.links{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-link{
+  display: inline;
+  height: fit-content;
+  color: black;
+}
+.call-to-action.navbar-link{
+  background-color: #ffc436;
 }
 
 .hero-section{
@@ -102,7 +131,6 @@ button{
 
 .whats-different{
   background-color: white;
-  padding-bottom: 0;
 }
 /* .whats-different-container{
   max-width: 1250px;
