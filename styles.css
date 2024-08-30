@@ -74,6 +74,10 @@ button{
 .hero-text-container{
   padding-left: 50px;
   padding-right: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero-heading{
   margin-bottom: 100px;
@@ -103,7 +107,7 @@ button{
 .evidence-card{
   padding-left: 35px;
   padding-right: 35px;
-  border-right: 2px solid rgb(155, 148, 148);
+  /* border-right: 2px solid rgb(155, 148, 148); */
   width: 340px;
 }
 .evidence-card:last-of-type{
