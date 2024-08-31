@@ -1,0 +1,380 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(249 247 233);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  all: unset;
+}
+/* global utils */
+.section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.heading{
+    font-size: 38px;
+  font-weight: 300;
+}
+.description{
+  font-size: 20px;
+  font-weight: 300;
+}
+.centered{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* sections */
+.navbar{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.logo{
+  height: 50px;
+  width: auto;
+}
+.links{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-link{
+  display: inline;
+  height: fit-content;
+  color: black;
+}
+.call-to-action.navbar-link{
+  background-color: #ffc436;
+}
+
+.hero-section{
+  /* max-width: 1250px;
+  margin: 0 auto; */
+  display: flex;
+  padding-bottom: 0;
+}
+.hero-img{
+  object-fit: cover;
+}
+.hero-text-container, .hero-img{
+  width: 50%;
+  height: 500px;
+}
+.hero-text-container{
+
+  padding-left: 50px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text{
+  max-width: 500px;
+}
+.hero-heading{
+  margin-bottom: 100px;
+}
+/* .icon-container{
+  transform: scale(2);
+} */
+
+.call-to-action{
+  display: block-inline;
+  font-size: 22px;
+  padding: 15px 35px;
+  border-radius: 999px;
+  background-color: rgba(59, 130, 246, .5);
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+}
+
+.benefits-section {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.evidence-card{
+  padding-left: 35px;
+  padding-right: 35px;
+  /* border-right: 2px solid rgb(155, 148, 148); */
+  width: 340px;
+}
+.evidence-card:last-of-type{
+  border-right: none;
+}
+.evidence-title{
+  /* font-weight: 300;
+  font-size: 38px; */
+  margin-bottom: 25px;
+}
+/* .evidence-description{
+  font-size: 24px;
+  font-weight: 300;
+} */
+
+.what-is-it-section{
+  text-align: center;
+}
+
+.what-is-it-section > .call-to-action{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.what-is-it-heading{
+  margin-bottom: 35px;
+}
+.what-is-it-description{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.watch-about-container{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dashed;
+}
+.watch-about-container > a{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whats-different{
+  background-color: white;
+}
+/* .whats-different-container{
+  max-width: 1250px;
+  margin: 0 auto;
+} */
+.whats-different-heading{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.difference{
+  display: flex;
+  background-color: rgb(246 237 229);
+}
+.difference:nth-of-type(odd){
+  flex-direction: row-reverse;
+}
+.difference:first-of-type {
+  background: linear-gradient(to bottom, white, rgb(246, 237, 229));
+}
+
+.difference:last-of-type {
+  background: linear-gradient(to top, white, rgb(246, 237, 229));
+}
+
+.diff-img, .difference-text {
+  width: 50%;
+}
+.diff-img{
+  height: 500px;
+  object-fit: cover;
+}
+.difference-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.difference-title{
+  margin-bottom: 35px;
+}
+
+.testimonials{
+  background-color: white;
+}
+.highlighted-testimonial{
+  display: flex;
+  align-items: center;
+}
+.testimonial-main-heading{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.testimonial-image{
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.testimonial-text{
+  padding: 35px;
+}
+.testimonial-title{
+  margin-bottom: 35px;
+}
+.testimonial-author{
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+
+
+.form-input{
+  padding: 20px 35px;
+  width: 100%;
+  font-size: 24px;
+}
+.form-row{
+  margin-bottom: 25px;
+  width: 100%;
+}
+.form-heading{
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contact-us{
+  background-color: white;
+  /* max-width: 900px;
+  margin: 0 auto; */
+}
+.contact-form{
+  margin-top: 100px;
+  padding: 35px 50px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+}
+
+.contact-heading{
+  text-align: center;
+}
+.contact-form{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.submit-button{
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+/* smaller screen layouts */
+@media only screen and (max-width: 768px) {
+  .heading{
+    font-size: 28px;
+  }
+  .section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .description{
+    font-size: 18px;
+  }
+
+  /* navbar */
+  .logo{
+    height: 40px;
+  }
+  .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* hero */
+  .hero-section{
+    flex-direction: column-reverse;
+  }
+  .hero-text-container, .hero-img{
+    width: 100%;
+  }
+  .hero-img{
+    height: 200px;
+  }
+  .hero-text-container{
+    padding: 25px 20px;
+    height: unset;
+  }
+  .hero-heading{
+    margin-bottom: 30px;
+  }
+  .call-to-action{
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+
+  /* benefits  */
+  .benefits-section{
+    flex-direction: column;
+    row-gap: 35px;
+  }
+  .evidence-card{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  .what-is-it-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* differences */
+  .difference{
+    flex-direction: column !important;
+  }
+  .difference-text, .diff-img{
+    width: 100%;
+    height: 300px;
+  }
+  .difference-text{
+    padding: 20px;
+  }
+  .testimonials{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .highlighted-testimonial{
+    flex-direction: column;
+  }
+  .testimonial-image, .testimonial-text{
+    width: 100%;
+    height: auto;
+  }
+  .testimonial-text{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact-form{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
