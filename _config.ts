@@ -3,6 +3,7 @@ import basePath from "lume/plugins/base_path.ts";
 
 const site = lume({
   location: new URL("https://derikvanschaik.github.io/tm-es/"),
+  dest: "./docs",
 });
 site.use(basePath());
 
