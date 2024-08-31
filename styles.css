@@ -204,6 +204,37 @@ button{
   margin-bottom: 35px;
 }
 
+.testimonials{
+  background-color: white;
+}
+.highlighted-testimonial{
+  display: flex;
+  align-items: center;
+}
+.testimonial-main-heading{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.testimonial-image{
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.testimonial-text{
+  padding: 35px;
+}
+.testimonial-title{
+  margin-bottom: 35px;
+}
+.testimonial-author{
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+
+
 .form-input{
   padding: 20px 35px;
   width: 100%;
@@ -221,8 +252,9 @@ button{
 }
 
 .contact-us{
-  max-width: 900px;
-  margin: 0 auto;
+  background-color: white;
+  /* max-width: 900px;
+  margin: 0 auto; */
 }
 .contact-form{
   margin-top: 100px;
@@ -235,5 +267,15 @@ button{
 .contact-heading{
   text-align: center;
 }
-
+.contact-form{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.submit-button{
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
 
