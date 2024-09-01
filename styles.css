@@ -376,5 +376,25 @@ button{
     padding-left: 20px;
     padding-right: 20px;
   }
+  /* contact form input */
+  .form-input{
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 18px;
+  }
+  .form-row{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .form-heading{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .submit-button{
+    padding: 10px 15px;
+    font-size: 18px;
+  }
 }
 
